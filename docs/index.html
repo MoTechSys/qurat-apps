@@ -37,7 +37,6 @@
   .tag{white-space:nowrap;display:inline-block;font-size:11px;background:var(--ok);color:#fff;border-radius:6px;padding:1px 6px;margin-inline-start:6px;vertical-align:middle}
   ol{padding-inline-start:20px;margin:0}
   ol li{margin-bottom:6px}
-  .notes{white-space:pre-line;color:var(--t);font-size:15px}
   .sha{direction:ltr;text-align:left;font:12px ui-monospace,Menlo,monospace;color:var(--mu);word-break:break-all;background:#faf8fd;border-radius:10px;padding:10px}
   details summary{cursor:pointer;font-weight:700}
   .links{direction:ltr;text-align:left;font:13px ui-monospace,monospace;word-break:break-all}
@@ -90,11 +89,6 @@
       <li>اضغط <b>تثبيت</b>. التحديثات القادمة تظهر داخل التطبيق تلقائيًا.</li>
     </ol>
     <p class="warn">إذا كان عندك الإصدار القديم <b>1.1.0</b>: احذفه أولًا مرة واحدة فقط، ثم ثبّت الجديد. بعدها كل التحديثات تُثبَّت فوق بعض دون فقدان البيانات.</p>
-  </section>
-
-  <section class="card" id="newsCard" hidden>
-    <h2>ما الجديد <span id="newsVer"></span></h2>
-    <div class="notes" id="notes"></div>
   </section>
 
   <section class="card">
@@ -163,7 +157,6 @@
     $('s64').textContent = mb(info.apks?.arm64?.size);
     $('s32').textContent = mb(info.apks?.armv7?.size);
     $('mainTxt').innerHTML = `تحميل الإصدار ${info.version} • ${label(pick)} • ${mb(info.apks?.[pick]?.size)}`;
-    if (info.notes) { $('notes').textContent = info.notes; $('newsVer').textContent = info.version; $('newsCard').hidden = false; }
     $('sha').innerHTML = Object.entries(info.apks || {}).map(([k, v]) => `<b>${k}</b><br>${v.sha256}`).join('<br><br>');
   } else {
     $('sha').textContent = 'تعذّر جلب البيانات — البصمات في صفحة الإصدارات (SHA256SUMS.txt).';
