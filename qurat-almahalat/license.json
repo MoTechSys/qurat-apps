@@ -2,7 +2,9 @@
   "active": false,
   "codeSha256": "3e648b76b3846f9f0d082db95d7034863c63deb47d0040d5a9986dffd0d2f38e",
   "message": "اختبار قفل حي",
-  "blockedDevices": [],
+  "blockedDevices": [
+    "TEST-0000"
+  ],
   "blockedMessage": "تم إيقاف التطبيق على هذا الجهاز. يرجى التواصل مع المطوّر.",
   "offlineGraceDays": 0,
   "contact": "+967770941666"
