@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>تحميل قرعة المحلات</title>
+<meta name="description" content="تحميل تطبيق قرعة المحلات لأندرويد — قرعات عادلة وشفافة لأصحاب المحلات.">
+<meta name="theme-color" content="#2E1065">
+<meta property="og:title" content="قرعة المحلات — تحميل التطبيق">
+<meta property="og:description" content="قرعات ومسابقات عادلة لأصحاب المحلات عبر حالات واتساب">
+<meta property="og:image" content="https://motechsys.github.io/qurat-apps/icon.webp">
+<link rel="icon" href="icon.webp">
+<style>
+  :root{--p:#5B21B6;--pd:#2E1065;--m:#C026D3;--g:#F59E0B;--gl:#FCD34D;--bg:#F6F3FB;--t:#1F1A2E;--mu:#6B6480;--ok:#16A34A}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Tahoma,"Noto Naskh Arabic",sans-serif;background:var(--bg);color:var(--t);line-height:1.7}
+  .hero{background:linear-gradient(135deg,var(--pd),var(--p) 55%,var(--m));color:#fff;padding:36px 20px 70px;text-align:center}
+  .hero img{width:96px;height:96px;border-radius:24px;box-shadow:0 10px 30px #0006}
+  .hero h1{margin:14px 0 4px;font-size:28px}
+  .hero p{margin:0;opacity:.9}
+  .ver{display:inline-block;margin-top:10px;background:#ffffff26;border-radius:99px;padding:3px 14px;font-size:14px}
+  main{max-width:560px;margin:-48px auto 40px;padding:0 16px}
+  .card{background:#fff;border-radius:20px;box-shadow:0 6px 24px #2e106514;padding:20px;margin-bottom:16px}
+  .main-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:18px;border:0;border-radius:16px;
+    background:var(--g);color:var(--pd);font-size:20px;font-weight:800;text-decoration:none;box-shadow:0 6px 16px #f59e0b55}
+  .main-btn:active{transform:scale(.98)}
+  .detect{font-size:14px;color:var(--mu);text-align:center;margin:10px 0 0}
+  .detect b{color:var(--ok)}
+  h2{font-size:18px;margin:0 0 12px}
+  .opt{display:flex;align-items:center;gap:12px;padding:14px;border:2px solid #ece7f5;border-radius:14px;text-decoration:none;color:inherit;margin-bottom:10px}
+  .opt.rec{border-color:var(--ok);background:#f0fdf4}
+  .opt .ic{font-size:26px}
+  .opt .tx{flex:1}
+  .opt .tx b{display:block;font-size:16px}
+  .opt .tx small{color:var(--mu)}
+  .opt .sz{font-size:13px;color:var(--mu);white-space:nowrap}
+  .tag{white-space:nowrap;display:inline-block;font-size:11px;background:var(--ok);color:#fff;border-radius:6px;padding:1px 6px;margin-inline-start:6px;vertical-align:middle}
+  ol{padding-inline-start:20px;margin:0}
+  ol li{margin-bottom:6px}
+  .notes{white-space:pre-line;color:var(--t);font-size:15px}
+  .sha{direction:ltr;text-align:left;font:12px ui-monospace,Menlo,monospace;color:var(--mu);word-break:break-all;background:#faf8fd;border-radius:10px;padding:10px}
+  details summary{cursor:pointer;font-weight:700}
+  .links{direction:ltr;text-align:left;font:13px ui-monospace,monospace;word-break:break-all}
+  .links a{color:var(--p)}
+  footer{text-align:center;color:var(--mu);font-size:13px;padding:0 16px 30px}
+  footer a{color:var(--p);font-weight:700;text-decoration:none}
+  .warn{background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;padding:10px 12px;font-size:14px}
+  .err{color:#b91c1c;text-align:center}
+  bdi,.en{unicode-bidi:isolate;direction:ltr;display:inline-block}
+  [hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header class="hero">
+  <img src="icon.webp" alt="قرعة المحلات" width="96" height="96">
+  <h1>قرعة المحلات</h1>
+  <p>قرعات ومسابقات عادلة وشفافة لأصحاب المحلات</p>
+  <span class="ver" id="ver">أندرويد 7.0 فأحدث</span>
+</header>
+
+<main>
+  <section class="card">
+    <a class="main-btn" id="main" href="https://github.com/MoTechSys/qurat-apps/releases/latest"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16" fill="none" stroke="#2E1065" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg> <span id="mainTxt">تحميل التطبيق</span></a>
+    <p class="detect" id="detect">جاري التعرّف على جهازك…</p>
+  </section>
+
+  <section class="card">
+    <h2>اختر النسخة المناسبة لجوالك</h2>
+    <a class="opt" id="o64" href="#">
+      <svg class="ic" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5" fill="none" stroke="#5B21B6" stroke-width="2"/><circle cx="12" cy="18" r="1.2" fill="#5B21B6"/></svg>
+      <span class="tx"><b><bdi>64-bit (arm64)</bdi><span class="tag" id="t64" hidden>مناسب لجهازك</span></b>
+        <small>أغلب الجوالات من 2017 فأحدث — ابدأ بها</small></span>
+      <span class="sz" id="s64"></span>
+    </a>
+    <a class="opt" id="o32" href="#">
+      <svg class="ic" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5" fill="none" stroke="#9CA3AF" stroke-width="2"/><circle cx="12" cy="18" r="1.2" fill="#9CA3AF"/></svg>
+      <span class="tx"><b><bdi>32-bit (armv7)</bdi><span class="tag" id="t32" hidden>مناسب لجهازك</span></b>
+        <small>الجوالات القديمة أو الضعيفة فقط</small></span>
+      <span class="sz" id="s32"></span>
+    </a>
+    <p class="detect">ما تعرف؟ حمّل <b><bdi>64-bit</bdi></b>. إذا ظهر «التطبيق غير متوافق» حمّل <bdi>32-bit</bdi>.</p>
+  </section>
+
+  <section class="card">
+    <h2>طريقة التثبيت</h2>
+    <ol>
+      <li>اضغط زر التحميل وانتظر انتهاء التنزيل.</li>
+      <li>افتح الملف من الإشعارات أو من «التنزيلات».</li>
+      <li>إذا طلب الجوال: اسمح بـ<b>«تثبيت تطبيقات غير معروفة»</b> للمتصفح ثم ارجع.</li>
+      <li>اضغط <b>تثبيت</b>. التحديثات القادمة تظهر داخل التطبيق تلقائيًا.</li>
+    </ol>
+    <p class="warn">إذا كان عندك الإصدار القديم <b>1.1.0</b>: احذفه أولًا مرة واحدة فقط، ثم ثبّت الجديد. بعدها كل التحديثات تُثبَّت فوق بعض دون فقدان البيانات.</p>
+  </section>
+
+  <section class="card" id="newsCard" hidden>
+    <h2>ما الجديد <span id="newsVer"></span></h2>
+    <div class="notes" id="notes"></div>
+  </section>
+
+  <section class="card">
+    <details>
+      <summary>روابط مباشرة ثابتة (للمشاركة)</summary>
+      <p style="font-size:14px;color:var(--mu)">هذه الروابط تنزّل دائمًا <b>آخر إصدار</b> مباشرة، ولا تتغير مع التحديثات:</p>
+      <div class="links">
+        64-bit: <a href="https://github.com/MoTechSys/qurat-apps/releases/latest/download/qurat-almahalat-arm64.apk">…/releases/latest/download/qurat-almahalat-arm64.apk</a><br>
+        32-bit: <a href="https://github.com/MoTechSys/qurat-apps/releases/latest/download/qurat-almahalat-armv7.apk">…/releases/latest/download/qurat-almahalat-armv7.apk</a><br>
+        الصفحة: <a href="https://motechsys.github.io/qurat-apps/">motechsys.github.io/qurat-apps</a>
+      </div>
+    </details>
+    <details style="margin-top:10px">
+      <summary>بصمات الملفات (SHA-256) للتحقق</summary>
+      <div class="sha" id="sha">…</div>
+    </details>
+  </section>
+  <p class="err" id="err" hidden></p>
+</main>
+
+<footer>
+  تطوير المهندس معين العباسي — <a href="https://wa.me/967770941666">واتساب +967770941666</a><br>
+  <a href="https://github.com/MoTechSys/qurat-apps/releases">كل الإصدارات</a>
+</footer>
+
+<script>
+(async () => {
+  const $ = id => document.getElementById(id);
+  const mb = n => n ? (n / 1048576).toFixed(1) + ' م.ب' : '';
+  const BASE = 'https://raw.githubusercontent.com/MoTechSys/qurat-apps/main/qurat-almahalat/update.json';
+
+  // 1) التعرّف على المعمارية (Client Hints في كروم أندرويد، وإلا من userAgent)
+  let arch = '', bits = '', isAndroid = /Android/i.test(navigator.userAgent);
+  try {
+    if (navigator.userAgentData && navigator.userAgentData.getHighEntropyValues) {
+      const h = await navigator.userAgentData.getHighEntropyValues(['architecture', 'bitness']);
+      arch = (h.architecture || '').toLowerCase(); bits = h.bitness || '';
+      isAndroid = isAndroid || navigator.userAgentData.platform === 'Android';
+    }
+  } catch (e) {}
+  const ua = navigator.userAgent;
+  const androidVer = parseInt((ua.match(/Android (\d+)/) || [])[1] || '0', 10);
+  let pick = 'arm64', sure = false;
+  if (bits === '32' || (/armv7l|armv8l|armeabi/i.test(ua) && !/aarch64|arm64/i.test(ua))) { pick = 'armv7'; sure = true; }
+  else if (bits === '64' || /aarch64|arm64/i.test(ua)) { pick = 'arm64'; sure = true; }
+  // أندرويد 10+ على أجهزة 2019 فأحدث: شبه كلها 64-bit (جوجل تشترط 64-bit منذ 2019)
+  else if (androidVer >= 10) { pick = 'arm64'; sure = true; }
+  const label = a => `<bdi>${a === 'arm64' ? '64-bit' : '32-bit'}</bdi>`;
+
+  // 2) بيانات آخر إصدار من update.json (نفس الملف الذي يقرأه التطبيق)
+  let info = null;
+  try {
+    const r = await fetch(BASE + '?t=' + Date.now(), {cache: 'no-store'});
+    if (r.ok) info = await r.json();
+  } catch (e) {}
+
+  const url = abi => info?.apks?.[abi]?.url ||
+    `https://github.com/MoTechSys/qurat-apps/releases/latest/download/qurat-almahalat-${abi}.apk`;
+  $('o64').href = url('arm64'); $('o32').href = url('armv7');
+  $(pick === 'arm64' ? 'o64' : 'o32').classList.add('rec');
+  if (sure) $(pick === 'arm64' ? 't64' : 't32').hidden = false;
+  $('main').href = url(pick);
+
+  if (info) {
+    $('ver').textContent = `الإصدار ${info.version} • أندرويد 7.0 فأحدث`;
+    $('s64').textContent = mb(info.apks?.arm64?.size);
+    $('s32').textContent = mb(info.apks?.armv7?.size);
+    $('mainTxt').innerHTML = `تحميل الإصدار ${info.version} • ${label(pick)} • ${mb(info.apks?.[pick]?.size)}`;
+    if (info.notes) { $('notes').textContent = info.notes; $('newsVer').textContent = info.version; $('newsCard').hidden = false; }
+    $('sha').innerHTML = Object.entries(info.apks || {}).map(([k, v]) => `<b>${k}</b><br>${v.sha256}`).join('<br><br>');
+  } else {
+    $('sha').textContent = 'تعذّر جلب البيانات — البصمات في صفحة الإصدارات (SHA256SUMS.txt).';
+  }
+
+  $('detect').innerHTML = !isAndroid
+    ? 'أنت على جهاز غير أندرويد. افتح هذه الصفحة <b>من جوال أندرويد</b> للتثبيت.'
+    : sure
+      ? `تم التعرّف على جهازك: <b>${label(pick)}</b> ✓`
+      : 'لم نتأكد من نوع جهازك — اخترنا <bdi>64-bit</bdi> (الأشيع). إن لم يُثبَّت جرّب <bdi>32-bit</bdi>.';
+})();
+</script>
+</body>
+</html>

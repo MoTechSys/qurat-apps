@@ -16,13 +16,18 @@ qurat-almahalat (خاص: كود + مفتاح)  ──بناء وتوقيع──
 ```
 
 ## 📥 التحميل
-من صفحة [الإصدارات](../../releases/latest):
 
-| الملف | لمن؟ |
-|---|---|
-| `qurat-almahalat-vX.Y.Z-arm64.apk` | ✅ أغلب الجوالات الحديثة (64-bit) |
-| `qurat-almahalat-vX.Y.Z-armv7.apk` | الجوالات القديمة (32-bit) |
-| `qurat-almahalat-vX.Y.Z-x86_64.apk` | المحاكيات وأجهزة Intel |
+### 👉 صفحة التحميل: **https://motechsys.github.io/qurat-apps/**
+تتعرّف على جوال الزائر وتختار له النسخة المناسبة (64 أو 32)، مع زر لكل نسخة.
+
+**روابط مباشرة ثابتة** (تنزّل دائمًا آخر إصدار، ولا تتغير مع التحديثات):
+
+| النسخة | لمن؟ | الرابط |
+|---|---|---|
+| **64-bit** | ✅ أغلب الجوالات (2017 فأحدث) | https://github.com/MoTechSys/qurat-apps/releases/latest/download/qurat-almahalat-arm64.apk |
+| **32-bit** | الجوالات القديمة فقط | https://github.com/MoTechSys/qurat-apps/releases/latest/download/qurat-almahalat-armv7.apk |
+
+> أندرويد فقط (7.0 فأحدث). لا نسخة ويب ولا آيفون.
 
 التحديث: ثبّت فوق النسخة الحالية مباشرة (لا تحذفها)، وبياناتك تبقى. أو من داخل التطبيق: **عن التطبيق ← تحديث التطبيق**.
 
