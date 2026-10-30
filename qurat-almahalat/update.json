@@ -1,0 +1,29 @@
+{
+  "version": "1.2.0",
+  "build": 120,
+  "versionCodes": {
+    "armv7": 1120,
+    "arm64": 2120,
+    "x86_64": 4120
+  },
+  "apks": {
+    "armv7": {
+      "url": "https://github.com/MoTechSys/qurat-apps/releases/download/v1.2.0/qurat-almahalat-v1.2.0-armv7.apk",
+      "sha256": "c73102850dff76a3ff981f8011aca2116c3c18d1ae81dc48b0ec254484e919f0",
+      "size": 16468113
+    },
+    "arm64": {
+      "url": "https://github.com/MoTechSys/qurat-apps/releases/download/v1.2.0/qurat-almahalat-v1.2.0-arm64.apk",
+      "sha256": "e54abfe117d063155cfc41bb1adc6556256f490513aa5bdda0f92c7893bf3711",
+      "size": 18955699
+    },
+    "x86_64": {
+      "url": "https://github.com/MoTechSys/qurat-apps/releases/download/v1.2.0/qurat-almahalat-v1.2.0-x86_64.apk",
+      "sha256": "62705752697435ead2d908552af2c2948e5c65869f9e10c25aaf8811c914fb8c",
+      "size": 20127918
+    }
+  },
+  "notes": "الإصدار 1.2.0:\n• القفل والفتح عن بُعد بكود تفعيل\n• التحديث من داخل التطبيق مع التحقق من سلامة الملف\n• معرّف الجهاز وزر التواصل مع المطوّر\n• توقيع دائم: التحديثات القادمة تُثبَّت فوق النسخة مباشرة",
+  "publishedAt": "2026-10-30",
+  "minSupportedBuild": 0
+}
