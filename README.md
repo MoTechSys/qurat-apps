@@ -17,7 +17,8 @@ qurat-almahalat (خاص: كود + مفتاح)  ──بناء وتوقيع──
 
 ## 📥 التحميل
 
-### 👉 صفحة التحميل: **https://motechsys.github.io/qurat-apps/**
+### 👉 صفحة التحميل: **https://raw.githack.com/MoTechSys/qurat-apps/main/docs/index.html**
+(المصدر `docs/index.html`. بعد تفعيل Pages من Settings ← Pages ← `main` / `/docs` يصير الرابط الدائم https://motechsys.github.io/qurat-apps/)
 تتعرّف على جوال الزائر وتختار له النسخة المناسبة (64 أو 32)، مع زر لكل نسخة.
 
 **روابط مباشرة ثابتة** (تنزّل دائمًا آخر إصدار، ولا تتغير مع التحديثات):
@@ -100,3 +101,15 @@ SHA-1  : 23:90:1E:79:3E:3E:E2:BF:3B:E3:A0:C9:A7:34:7C:D2:73:2A:86:3E
 
 ## سجل الإصدارات
 [`qurat-almahalat/CHANGELOG.md`](qurat-almahalat/CHANGELOG.md)
+
+
+## 📁 محتويات المستودع
+| المسار | الدور | من يقرأه |
+|---|---|---|
+| `qurat-almahalat/license.json` | القفل والفتح عن بُعد | التطبيق المثبّت (عند الفتح، وكل 10 دقائق عند الرجوع) |
+| `qurat-almahalat/update.json` | آخر إصدار + روابط APK + SHA-256 | التطبيق (كل 6 ساعات) + صفحة التحميل |
+| `qurat-almahalat/CHANGELOG.md` | سجل الإصدارات للمستخدمين | البشر |
+| `docs/index.html` + `docs/icon.webp` | صفحة التحميل (تختار 64/32 تلقائيًا) | الزوار |
+| Releases | ملفات APK (باسم الإصدار + باسم ثابت `qurat-almahalat-arm64.apk`) | الكل |
+
+الكود المصدري ومفتاح التوقيع والأدوات في المستودع الخاص `qurat-almahalat`، وفيه دليل `docs/START_HERE.md`.
