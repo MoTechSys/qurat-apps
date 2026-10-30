@@ -1,29 +1,23 @@
 {
-  "version": "1.2.1",
-  "build": 121,
+  "version": "1.3.0",
+  "build": 130,
   "versionCodes": {
-    "armv7": 1121,
-    "arm64": 2121,
-    "x86_64": 4121
+    "armv7": 1130,
+    "arm64": 2130
   },
   "apks": {
     "armv7": {
-      "url": "https://github.com/MoTechSys/qurat-apps/releases/download/v1.2.1/qurat-almahalat-v1.2.1-armv7.apk",
-      "sha256": "f4e024f90a501c087e90667a7c903bb34e9c9f7b9801b95c3f3792da07607e80",
-      "size": 16468113
+      "url": "https://github.com/MoTechSys/qurat-apps/releases/download/v1.3.0/qurat-almahalat-v1.3.0-armv7.apk",
+      "sha256": "4c720af432603404321101f1c57cf0079192cb78ca677c7b94cc01299f88ab69",
+      "size": 8548620
     },
     "arm64": {
-      "url": "https://github.com/MoTechSys/qurat-apps/releases/download/v1.2.1/qurat-almahalat-v1.2.1-arm64.apk",
-      "sha256": "7629f1d955168cee3f34bfe0df6f8a35b6a438b37cf5bc70e3ee2f58094bdf46",
-      "size": 18955699
-    },
-    "x86_64": {
-      "url": "https://github.com/MoTechSys/qurat-apps/releases/download/v1.2.1/qurat-almahalat-v1.2.1-x86_64.apk",
-      "sha256": "d304cab42a3ad903ff1346ec1a8282a5114e697e79b9a5a3be685e182b5fa6c1",
-      "size": 20127922
+      "url": "https://github.com/MoTechSys/qurat-apps/releases/download/v1.3.0/qurat-almahalat-v1.3.0-arm64.apk",
+      "sha256": "6e5cf4b29dcaf2406d11c8d5826ba6b9379a4b7ed074db89397c394997f2c761",
+      "size": 9013834
     }
   },
-  "notes": "الإصدار 1.2.1:\n• التقاط القفل والفتح عن بُعد فورًا (إصلاح تأخير الكاش)\n• تحسينات في الاستقرار",
+  "notes": "الإصدار 1.3.0:\n• حجم التطبيق صار النصف (9 م.ب)\n• حفظ أقوى بقاعدة بيانات: لا ضياع للمسابقات أبدًا\n• نسخ احتياطي تلقائي عند تغيير الجوال\n• سحب أخف وأسرع على الجوالات الضعيفة",
   "publishedAt": "2026-10-30",
   "minSupportedBuild": 0
 }
